@@ -3,6 +3,7 @@ import os
 import re
 import time
 import random
+import threading      # <-- YE LINE ADD KAREIN
 import aiohttp
 from flask import Flask, jsonify
 from telethon import TelegramClient, events
