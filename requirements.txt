@@ -1,0 +1,4 @@
+Flask==3.0.0
+telethon==1.36.0
+python-socks[asyncio]==2.4.4
+aiohttp==3.9.1
