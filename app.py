@@ -14,8 +14,8 @@ app = Flask(__name__)
 
 API_ID = int(os.environ.get("API_ID", 36879151))
 API_HASH = os.environ.get("API_HASH", "45360a236343352099ffa29570f48700")
-SESSION_STRING = os.environ.get("SESSION_STRING", "1BVtsOI4Bu2aqYwbxzr4l6E-jImpT8xpCD9XryD71Qq8bcPVb1H1ebSanXLS_PWl1OaJXsofxC5NgstzMBVhuyn66KA6e18xf_PinLp24alIuAFu-wWHkwsdyWyH6lS1UjSmBIdOlosAsksijT32BXL912p5_FOnssgSjTGamz1oJZtrye-1vzqE9v3DPh-Rrz4uva5eF_lR7vaZxiJCGuLjDz0eBrGMVZuJaoTpm1HXcqUgs4QQPUthAkiA6etphcONP4IwiVyEtzBcYzb8MSPN7TvlQazOihV5rx_hN9uMmST58fNTpAY5mDnEZ6GBkZGPTld-fXxCjP2YjMzsfL7BB15vqoLE=")
-GROUP_ID = int(os.environ.get("GROUP_ID", -1003736621633))
+SESSION_STRING = os.environ.get("SESSION_STRING", "1BVtsOMABu03AGNyJxnpBCoVUDhVEhRLQ7S57ksSt4hAxYye7fEvkOmz24B-DGoeeZIgopZwAxZfdUjAihkSNhkX2xxPg46DYirOYShfvsUMwM02Y4p3Et8T-kiAcjFyKawUjS4EneH3DC_IwESVfyNH6N9emt2qZ1lhvbAx3zlyEIfU0ZiodJcHClK9PjwwfHX0kp3JFt11R4-a_LyYP7UCB9ExezKt9YTAwFvuc4ZEUitRnyGtKND5nKB1UQcZtaNSrz5g0lf1Pzw08LNi1XEShktawnd9gPJRILMDCr-mfIfLtFLw0fSGO-rrqtwh2HplhqiJtPIyhvwpYryYvE430wA-oUjg=")
+GROUP_ID = int(os.environ.get("GROUP_ID", -1002423502338))
 
 client = None
 telethon_loop = None
